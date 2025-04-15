@@ -1,26 +1,26 @@
 import React, { useEffect, useState } from "react";
-import Marquee from "react-fast-marquee";
-import BlogCard from "../components/BlogCard";
+// import Marquee from "react-fast-marquee";
+// import BlogCard from "../components/BlogCard";
 import "../styles/home.css";
 import Testimonials from "../components/Testimonials";
 import Services from "../components/Services";
 import ConnectCto from "../components/ConnectCto";
-import dummyBlogData from "../dummyData";
-import Blog from "./Blog";
+// import dummyBlogData from "../dummyData";
+// import Blog from "./Blog";
 import { motion } from "motion/react";
 import ProjectsShowcase from "../components/ProjectsShowcase";
 import { Link } from "react-router-dom";
 
 const Home: React.FC = () => {
-  const [mostRecentPost, setMostRecentPost] = useState<Blog | null>(null);
+  // const [mostRecentPost, setMostRecentPost] = useState<Blog | null>(null);
 
-  useEffect(() => {
-    const sortedPosts = [...dummyBlogData].sort(
-      (a, b) =>
-        new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
-    );
-    setMostRecentPost(sortedPosts[0]);
-  }, []);
+  // useEffect(() => {
+  //   const sortedPosts = [...dummyBlogData].sort(
+  //     (a, b) =>
+  //       new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
+  //   );
+  //   setMostRecentPost(sortedPosts[0]);
+  // }, []);
 
   return (
     <div className="mb-12">

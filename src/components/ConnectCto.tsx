@@ -2,12 +2,12 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const ConnectCto = () => {
-  const [email, setEmail] = useState("");
+  // const [email, setEmail] = useState("");
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log("You clicked Contact Me");
-  };
+  // const handleSubmit = (e: React.FormEvent) => {
+  //   e.preventDefault();
+  //   console.log("You clicked Contact Me");
+  // };
 
   return (
     <div className="py-12 p-4 container mx-auto text-center flex flex-col items-center gap-8 sm:w-4/5 lg:w-1/2">
