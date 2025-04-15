@@ -1,6 +1,6 @@
 import React from "react";
 import avatar from "../assets/avatar.jpeg";
-import Skills from "../components/Skills";
+// import Skills from "../components/Skills";
 
 const Services: React.FC = () => {
   return (
