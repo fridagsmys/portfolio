@@ -12,7 +12,7 @@ import Projects from "./pages/Projects";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/portfolio">
       <nav>
         <Navbar />
       </nav>
