@@ -35,7 +35,7 @@ const ConnectCto = () => {
         </button>
       </form> */}
       <button className="btn bg-secondary border-secondary w-fit text-white sm:btn-sm sm:text-xs hover:bg-accent">
-        <Link to="/connect" className="flex items-center">
+        <Link to="/portfolio/connect" className="flex items-center">
           Connect
           <svg
             xmlns="http://www.w3.org/2000/svg"

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar: React.FC = () => {
   return (
     <div className="navbar bg-base-100 flex justify-between items-center px-6">
-      <Link to="/">
+      <Link to="/portfolio/">
         <a className="text-2xl font-bold">FRIDAGSMYS</a>
       </Link>
 
@@ -13,17 +13,17 @@ const Navbar: React.FC = () => {
         {/* <Link to="/blog" className="hover:text-accent">
           Blog
         </Link> */}
-        <Link to="/" className="hover:text-accent">
+        <Link to="/portfolio/" className="hover:text-accent">
           Home
         </Link>
-        <Link to="/projects" className="hover:text-accent">
+        <Link to="/portfolio/projects" className="hover:text-accent">
           Projects
         </Link>
-        <Link to="/about" className="hover:text-accent">
+        <Link to="/portfolio/about" className="hover:text-accent">
           About
         </Link>
       </div>
-      <Link to="/connect">
+      <Link to="/portfolio/connect">
         <a className="hidden lg:ml-16 lg:bg-secondary lg:border-secondary lg:text-white lg:btn lg:btn-sm lg:hover:bg-accent lg:hover:border-accent">Connect</a>
       </Link>
 
@@ -50,7 +50,7 @@ const Navbar: React.FC = () => {
           className="dropdown-content menu bg-base-100 rounded-box w-40 z-10 p-2 shadow"
         >
           <li>
-            <Link to="/" className="hover:text-accent hover:bg-base-100 text-lg">
+            <Link to="/portfolio/" className="hover:text-accent hover:bg-base-100 text-lg">
               Home
             </Link>
           </li>
@@ -61,19 +61,19 @@ const Navbar: React.FC = () => {
           </li> */}
           <li>
             <Link
-              to="/projects"
+              to="/portfolio/projects"
               className="hover:text-accent hover:bg-base-100 text-lg"
             >
               Projects
             </Link>
           </li>
           <li>
-            <Link to="/about" className="hover:text-accent hover:bg-base-100 text-lg">
+            <Link to="/portfolio/about" className="hover:text-accent hover:bg-base-100 text-lg">
               About
             </Link>
           </li>
           <li>
-            <Link to="/connect" className="bg-secondary text-white text-lg hover:bg-accent">
+            <Link to="/portfolio/connect" className="bg-secondary text-white text-lg hover:bg-accent">
               <a className="">Connect</a>
             </Link>
           </li>

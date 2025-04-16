@@ -18,13 +18,13 @@ const Footer: React.FC = () => {
           {/* <Link to="/blog" className="hover:text-accent">
             Blog
           </Link> */}
-          <Link to="/projects" className="hover:text-accent">
+          <Link to="/portfolio/projects" className="hover:text-accent">
             Projects
           </Link>
-          <Link to="/about" className="hover:text-accent">
+          <Link to="/portfolio/about" className="hover:text-accent">
             About
           </Link>
-          <Link to="/connect" className="hover:text-accent">
+          <Link to="/portfolio/connect" className="hover:text-accent">
             Connect
           </Link>
         </div>

@@ -68,7 +68,7 @@ const Home: React.FC = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <Link to="/connect" className="flex items-center h-full">Let's connect</Link>
+            <Link to="/portfolio/connect" className="flex items-center h-full">Let's connect</Link>
           </motion.button>
         </motion.div>
       </motion.div>
